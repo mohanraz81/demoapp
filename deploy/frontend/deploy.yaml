@@ -25,7 +25,7 @@ spec:
     spec:
       containers:
       - name: demoappfe
-        image: gcr.io/google_containers/hpa-example
+        image: mohanraz81/demoapp:2.0
         imagePullPolicy: Always
         ports:
         - containerPort: 80
